@@ -4,7 +4,7 @@ load_dotenv()
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key = "AIzaSyCWuCdqFk8bcpRa7xs-E9jGvij71TWH22A")
+
 
 #function to load Gemini Pro model and get responses
 model = genai.GenerativeModel("gemini-pro")
